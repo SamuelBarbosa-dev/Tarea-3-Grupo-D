@@ -172,7 +172,3 @@ def test_caso_borde_lista_nombres_es_independiente() -> None:
     lista_copia.append("Falso")
     assert agenda.contiene("Falso") is False
     assert len(agenda) == 1
-
-
-
-

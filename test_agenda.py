@@ -4,10 +4,6 @@ import pytest
 from agenda import Agenda
 
 
-# ---------------------------------------------------------------------------
-# Pruebas de funcionamiento normal (Flujo estándar)
-# ---------------------------------------------------------------------------
-
 def test_agregar_y_contiene() -> None:
     """Verifica que un contacto agregado se guarde y sea encontrado."""
     agenda = Agenda()
@@ -50,9 +46,7 @@ def test_eliminar_contacto_existente() -> None:
     assert len(agenda) == 0
 
 
-# ---------------------------------------------------------------------------
-# Pruebas de Casos Borde y Excepciones
-# ---------------------------------------------------------------------------
+
 
 def test_caso_borde_agenda_vacia() -> None:
     """Manejo de operaciones sobre una agenda recién inicializada."""
@@ -97,9 +91,6 @@ import pytest
 from agenda import Agenda
 
 
-# ---------------------------------------------------------------------------
-# Pruebas de funcionamiento normal (Flujo estándar)
-# ---------------------------------------------------------------------------
 
 def test_agregar_y_contiene() -> None:
     """Verifica que un contacto agregado se guarde y sea encontrado."""
@@ -142,10 +133,6 @@ def test_eliminar_contacto_existente() -> None:
     assert agenda.contiene("Beatriz") is False
     assert len(agenda) == 0
 
-
-# ---------------------------------------------------------------------------
-# Pruebas de Casos Borde y Excepciones
-# ---------------------------------------------------------------------------
 
 def test_caso_borde_agenda_vacia() -> None:
     """Manejo de operaciones sobre una agenda recién inicializada."""

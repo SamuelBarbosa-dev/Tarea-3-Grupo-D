@@ -2,7 +2,7 @@
 Integrantes:
 -Samuel Barbosa
 -Yulian Delgado
--Pablo
+-Pablo Castaño
 -Iker Palacios
 
 #Tabla de reparto
